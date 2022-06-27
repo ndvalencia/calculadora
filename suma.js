@@ -1,8 +1,8 @@
 var num1 = 5;
 var num2 = 8;
-sumar(num1, num2);
+var resultado = sumar(num1, num2);
+alert("La suma es: " + resultado);
 
 function sumar(num1, num2) {
-  var suma = num1 + num2;
-  alert("La suma es: " + suma);
+  return num1 + num2;
 }
